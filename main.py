@@ -25,5 +25,5 @@ try:
     parsed_response_text = response.json()
     print(parsed_response_text)
 except JSONDecodeError:
-    print("Respons is not JSON");
+    print("Respons is not JSON")
 
